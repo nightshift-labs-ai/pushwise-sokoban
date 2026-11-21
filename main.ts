@@ -1,3 +1,3 @@
 H=(e,j)=>e%21-4|j/W>9^j%W&8^k
 F=(r,p,d)=>E[r]%6?E[r]&1||[-1,1,-W,W].map((d,i)=>F(r+d,p+'lrud'[i],d),E[r]=1):H(t[n=r+d]%7,r)||Q.push([r,s=Buffer(t),p,s[r]^=4,s[n]^=4])
-for(i of(f=require('fs')).readdirSync(D='/input/'))for(t=f.readFileSync(D+i+'/level.txt',f.mkdirSync(O='/output/'+i)),k=W=-~t.indexOf(10),P=t.indexOf(64);k--;)for([P,t,o]of Q=[[P,t,'']])t.every(H)?Q.length=!f.appendFileSync(O+'/solution.txt',o):F(P,o,E=Q[t]??=[...t])
+for(i of(f=require('fs')).readdirSync(D='/input/'))for(t=f.readFileSync(D+i+'/level.txt',f.mkdirSync(O='/output/'+i)),k=W=t[8]%9+8,P=t.indexOf(64);k--;)for([P,t,o]of Q=[[P,t,'']])t.every(H)?Q.length=!f.appendFileSync(O+'/solution.txt',o):F(P,o,E=Q[t]??=[...t])
